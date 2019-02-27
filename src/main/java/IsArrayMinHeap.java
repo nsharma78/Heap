@@ -14,7 +14,7 @@ public class IsArrayMinHeap {
         System.out.println("The given array is minimum heap: " + isArrayMinHeap(arr));
     }
 
-    private static boolean isArrayMinHeap(int[] arr) {
+    private static boolean isArrayMinHeap(int[] arr) { //O(n) O(1)
         if (arr == null || arr.length < 2)
             return true;
 
