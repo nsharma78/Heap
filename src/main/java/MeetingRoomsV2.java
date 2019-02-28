@@ -29,7 +29,7 @@ public class MeetingRoomsV2 {
         }
     }
 
-    private static int minNumberOfRooms(Interval[] arr) {
+    private static int minNumberOfRooms(Interval[] arr) { //O(n) O(1)
         if (arr == null || arr.length == 0)
             return 0;
 

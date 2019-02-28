@@ -29,7 +29,7 @@ public class MeetingRoomsV1 {
         }
     }
 
-    private static boolean canAttendAllMeetings(Interval[] arr) {
+    private static boolean canAttendAllMeetings(Interval[] arr) { //O(n) O(1)
         if (arr == null || arr.length == 0)
             return true;
 
